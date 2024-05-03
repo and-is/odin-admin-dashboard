@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: grid;
+  grid-template: 1fr 2fr 2fr / 1 fr 3fr 1fr;
+}
+.dashboard {
+  background-color: skyblue;
+  grid-area: 1 / 1 / 4 / 2;
+}
+.header {
+  background-color: blanchedalmond;
+  grid-area: 1 / 2 / 2 / 4;
+}
+.project {
+  background-color: yellow;
+  grid-area: 2 / 2 / 4 / 3;
+}
+.announcements {
+  background-color: aquamarine;
+  grid-area: 3 / 2 / 4 / 3;
+}
+.trending {
+  background-color: blueviolet;
+  grid-area: 3 / 3 / 4 / 4;
+}
