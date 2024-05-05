@@ -8,7 +8,13 @@
   </head>
   <body>
     <div class="dashboard">
-      <p class="logo"></p>
+      <div class="logoTh">
+        <svg id="dash" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <title>view-dashboard</title>
+          <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+        </svg>
+        <p class="logo">Dashboard</p>
+      </div>
       <ul class="nav1">
         <li>Home</li>
         <li>Profile</li>
@@ -27,17 +33,25 @@
       <div class="line1">
         <button class="search">S</button>
         <input type="search" />
+        <div></div>
         <button class="notif">R</button>
         <img class="icon-sm" src="" alt="user icon" />
         <p class="user">Morgan Oakley</p>
       </div>
       <div class="line2">
-        <img class="icon" src="" alt="user icon" />
-        <p>Hi there,</p>
-        <p class="user2">Morgan Oakley (@morgan)</p>
-        <button class="new">New</button>
-        <button class="upload">Upload</button>
-        <button class="share">Share</button>
+        <div class="frnt">
+          <img class="icon" src="" alt="user icon" />
+          <div class="tt">
+            <p>Hi there,</p>
+            <p class="user2">Morgan Oakley (@morgan)</p>
+          </div>
+        </div>
+        <div class="cbtns">
+          <div></div>
+          <button class="new">New</button>
+          <button class="upload">Upload</button>
+          <button class="share">Share</button>
+        </div>
       </div>
     </div>
     <div class="projects">
@@ -49,6 +63,11 @@
             Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas
             da d askd sad as daskds ad k
           </p>
+          <div class="cbtns">
+            <div></div>
+            <button class="btn">A</button><button class="btn">B</button
+            ><button class="btn">C</button>
+          </div>
         </div>
         <div class="card">
           <p class="head">Less Cool Project</p>
@@ -56,6 +75,11 @@
             Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas
             da d askd sad as daskds ad k
           </p>
+          <div class="cbtns">
+            <div></div>
+            <button class="btn">A</button><button class="btn">B</button
+            ><button class="btn">C</button>
+          </div>
         </div>
         <div class="card">
           <p class="head">Impossible App</p>
@@ -63,6 +87,11 @@
             Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas
             da d askd sad as daskds ad k
           </p>
+          <div class="cbtns">
+            <div></div>
+            <button class="btn">A</button><button class="btn">B</button
+            ><button class="btn">C</button>
+          </div>
         </div>
         <div class="card">
           <p class="head">Easy Peasy App</p>
@@ -70,6 +99,11 @@
             Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas
             da d askd sad as daskds ad k
           </p>
+          <div class="cbtns">
+            <div></div>
+            <button class="btn">A</button><button class="btn">B</button
+            ><button class="btn">C</button>
+          </div>
         </div>
         <div class="card">
           <p class="head">Ad Blocker</p>
@@ -77,6 +111,11 @@
             Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas
             da d askd sad as daskds ad k
           </p>
+          <div class="cbtns">
+            <div></div>
+            <button class="btn">A</button><button class="btn">B</button
+            ><button class="btn">C</button>
+          </div>
         </div>
         <div class="card">
           <p class="head">Money Maker</p>
@@ -84,30 +123,38 @@
             Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas
             da d askd sad as daskds ad k
           </p>
+          <div class="cbtns">
+            <div></div>
+            <button class="btn">A</button><button class="btn">B</button
+            ><button class="btn">C</button>
+          </div>
         </div>
       </div>
     </div>
     <div class="announcements">
-      <div class="announcemt">
-        <p class="head">Site Maintenance</p>
-        <p class="content">
-          Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas da
-          d askd sad as daskds ad k
-        </p>
-      </div>
-      <div class="announcemt">
-        <p class="head">Community Share Day</p>
-        <p class="content">
-          Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas da
-          d askd sad as daskds ad k
-        </p>
-      </div>
-      <div class="announcemt">
-        <p class="head">Updated Privacy Policy</p>
-        <p class="content">
-          Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas da
-          d askd sad as daskds ad k
-        </p>
+      <p class="project-head">Announcements</p>
+      <div class="announcementsss">
+        <div class="announcemt">
+          <p class="head c22">Site Maintenance</p>
+          <p class="content d22">
+            Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas
+            da
+          </p>
+        </div>
+        <div class="announcemt">
+          <p class="head c22">Community Share Day</p>
+          <p class="content d22">
+            Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas
+            da
+          </p>
+        </div>
+        <div class="announcemt">
+          <p class="head c22">Updated Privacy Policy</p>
+          <p class="content d22">
+            Adsak d dsakjd baskdb askdbasd ksb dsak dbaskdjbwqdb as d sakdjbas
+            da
+          </p>
+        </div>
       </div>
     </div>
     <div class="trending">

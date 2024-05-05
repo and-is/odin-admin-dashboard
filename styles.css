@@ -1,26 +1,118 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: sans-serif;
 }
 body {
   display: grid;
-  grid-template: 1fr 2fr 2fr / 1 fr 3fr 1fr;
+  grid-template: 20% 40% 40% / 20% 60% 20%;
+  background-color: rgb(200, 197, 197);
 }
 .dashboard {
   background-color: skyblue;
   grid-area: 1 / 1 / 4 / 2;
+  display: grid;
+  grid-template-rows: 30px 2fr 1fr 4fr;
+  gap: 40px;
+  padding: 20px 40px 0 10px;
+}
+.logoTh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+}
+#dash {
+  width: 40px;
+  height: 40px;
 }
 .header {
   background-color: blanchedalmond;
   grid-area: 1 / 2 / 2 / 4;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px 20px;
+}
+.line1 {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr 1fr 1fr 3fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.line2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.frnt {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.btns {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
 }
 .project {
-  background-color: yellow;
   grid-area: 2 / 2 / 4 / 3;
+}
+.cards {
+  display: grid;
+  grid-template-rows: 30% 30% 30%;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(200, 197, 197);
+}
+.project-head {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(200, 197, 197);
+}
+.card {
+  border-radius: 5px;
+  border-bottom: 2px grey solid;
+  padding: 20px;
+  margin: 10px;
+  border-left: 4px rgba(255, 201, 52, 0.809) solid;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 20% 40% 40%;
+}
+.head {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.content {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.cbtns {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
 }
 .announcements {
   background-color: aquamarine;
-  grid-area: 3 / 2 / 4 / 3;
+  grid-area: 2 / 3 / 3 / 4;
+  display: grid;
+  grid-template-rows: 15% 25% 25% 25%;
+}
+.announcementsss {
+  padding: 10px;
+}
+.c22 {
+  margin-bottom: 0;
+}
+.p22 {
+  margin-bottom: 10px;
 }
 .trending {
   background-color: blueviolet;
